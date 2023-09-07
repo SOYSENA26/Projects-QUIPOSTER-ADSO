@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Paquetes turisticos|Planes todo</title>
+        <link rel="shortcut icon" href="images/LogoQuiposter.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+        <script type="text/javascript" src="menu.js"></script>
+    </head>
+
+
+    <body>
+    
+        <header class="header">
+
+            <div>
+                <img class="logo" src="images/logo.png" alt="logo">
+            
+            </div>
+        
+            <nav>
+                <div>
+                    <a href="./iniciar.html">Iniciar Sesión</a>
+                    <a href="./reserva.html">Mis Reservas</a>  
+                </div>
+                
+            </nav>
+            <div>
+                <a href="./ayuda.html">
+                    <img class="ayuda" src="images/ayuda.png" alt="ayuda" align="left"></img>
+                </a>
+            </div>
+                
+        
+        </header>
+        
+        <section>
+            <div class="name">
+                <h1>WELCOME TO QUIPOSTER</h1>
+            </div>
+            <div class="container">
+                <div class="btn-Destinos">
+                    <button class="btn btn-1">DESTINOS NACIONALES</button>
+                    <button class="btn btn-2">DESTINOS INTERNACIONALES</button>
+                </div>
+            </div>
+            <div class="search">
+                <div class="chooseFilter">
+                    <div class="chooseMes-item01">
+                        <select class="select" id="chooseByMes" onchange="searchFilter()">
+                            <option selected="selected" value="">Elige El Mes</option>
+                            <option value="Enero">Enero</option>
+                            <option value="Febrero">Febrero</option>
+                            <option value="Marzo">Marzo</option>
+                            <option value="Abril">Abril</option>
+                            <option value="Mayo">Mayo</option>
+                            <option value="Junio">Junio</option>
+                            <option value="Julio">Julio</option>
+                            <option value="Agosto">Agosto</option>
+                            <option value="Septiembre">Septiembre</option>
+                            <option value="Octubre">Octubre</option>
+                            <option value="Noviembre">Noviembre</option>
+                            <option value="Diciembre">Diciembre</option>
+                        </select>
+                    </div>
+                    <div>
+                        <div class="chooseTipo-item2">
+                            <select class="select" id="chooseByTipo" onchange="searchFilterType()">
+                                <option selected="selected" value="">Elige el Tipo</option>
+                                <option value="Ocio">Ocio</option>
+                                <option value="Cultura">Cultura</option>
+                                <option value="Naturaleza">Naturaleza</option>
+                                <option value="Educacion">Educación</option> 
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <section class="packages">
+            <div class="info">
+                <div class="package">
+                     <img src="images/Malta.jpg" alt="" id="img">
+                    <div class="package-precio">
+                        <h4>PRECIO DESDE
+                            <p>$9´328.000</p>
+                        </h4>
+                    </div>
+                    <div class="package-text">
+                        <h3 id="tuorist">La Isla De Malta</h3>
+                        <p id="descripcion">Intercambiar Idiomas</p>
+                    </div>
+                        
+                    <div class="package-info">
+                        <img src="images/calendario (3).png" alt="">
+                        <p>4 semanas</p>
+                        <a href="#" class="read-more">Leer más</a>
+                    </div>
+                </div>
+                    
+            </div>
+            <div class="info">
+                <div class="package">
+                    <img src="images/mexico.jpg" alt="" id="img">
+                    <div class="package-precio">
+                        <h4>PRECIO DESDE
+                            <p>$7´498.000</p>
+                        </h4>
+                    </div>
+                    <div class="package-text">
+                        <h3 id="tuorist">Mexico</h3>
+                        <p id="descripcion">Turistico y cultural</p>
+                    </div>  
+                    
+                    <div class="package-info">
+                        <img src="images/calendario (3).png" alt="">
+                        <p>8 dias
+                            7 noches</p>
+                        <a href="#" class="read-more">Leer más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="info">
+                <div class="package">
+                        <img src="images/Guatemala.jpg" alt="" id="img">
+                    <div class="package-precio">
+                        <h4>PRECIO DESDE
+                            <p>$7'960.700</p>
+                        </h4>
+                    </div>
+                    <div class="package-text">
+                        <h3 id="tuorist">Guatemala</h3>
+                        <p id="descripcion">Pais mas autentico y diverso</p>
+                    </div>
+                        
+                    <div class="package-info">
+                        <img src="images/calendario (3).png" alt="">
+                        <p>9 dias
+                            8 noches</p>
+                        <a href="#" class="read-more">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info">
+                <div class="package"> 
+                        <img src="images/avistamiento de ballena.jpg" alt="" id="img">
+                    <div class="package-precio">
+                        <h4>PRECIO DESDE
+                            <p>$$1´567.000</p>
+                        </h4>
+                    </div>
+                    <div class="package-text">
+                        <h3 id="tuorist">La Bahia Solano</h3>
+                        <p id="descripcion">Sorprendente-Avistamiento de Ballenas</p>
+                    </div>
+                        
+                    <div class="package-info">
+                        <img src="images/calendario (3).png" alt="">
+                        <p>4 dias
+                            3 noches</p>
+                        <a href="#" class="read-more">Leer más</a>
+                    </div>
+                </div>   
+            </div>
+
+            <div class="info">
+                <div class="package"> 
+                     <img src="images/sur de colombia.jpg" alt="" id="img">
+                    <div class="package-precio">
+                        <h4>PRECIO DESDE
+                            <p>$1´224.000</p>
+                        </h4>
+                    </div>
+                    <div class="package-text">
+                        <h3 id="tuorist">Sur de Colombia</h3>
+                        <p id="descripcion">Buga, Pasto, Ipiales y Popayán</p>
+                    </div>
+                        
+                    <div class="package-info">
+                        <img src="images/calendario (3).png" alt="">
+                        <p>5 noches</p>
+                        <a href="#" class="read-more">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info">
+                <div class="package"> 
+                        <img src="images/isla-gorgona-4 (1).jpg" alt="" id="img">
+                    <div class="package-precio">
+                        <h4>PRECIO DESDE
+                            <p>$2'030.000</p>
+                        </h4>
+                    </div class="package-text">
+                        <h3 id="tuorist">Isla Gorgona </h3>
+                        <p id="descripcion">Utopia natural</p>
+                    <div class="package-info">
+                        <img src="images/calendario (3).png" alt="">
+                        <p>4 dias
+                            3 noches</p>
+                        <a href="#" class="read-more">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info">
+                <div class="package"> 
+                     <img src="images/viajar-turquia-visado-vacunas (1).jpg" alt="" id="img">
+                    <div class="package-precio">
+                        <h4>PRECIO DESDE
+                            <p>$10´405.400</p>
+                        </h4>
+                    </div>
+                    <div class="package-text">
+                        <h3 id="tuorist">Turquia</h3>
+                        <p id="descripcion"> La riqueza y multicultural del pais</p>
+                    </div>
+                       
+                    <div class="package-info">
+                        <img src="images/calendario (3).png" alt="">
+                        <p>13 dias 
+                            11 noches</p>
+                        <a href="#" class="read-more">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info">
+                <div class="package"> 
+                     <img src="images/Argentina.jpeg" alt="" id="img">
+                    <div class="package-precio">
+                        <h4>PRECIO DESDE
+                            <p>$6´674.000</p>
+                        </h4>
+                    </div>
+                    <div class="package-text">
+                        <h3 id="tuorist">Buenos Aires</h3>
+                        <p id="descripcion">Capital de Argentina </p>
+                    </div>
+                       
+                    <div class="package-info">
+                        <img src="images/calendario (3).png" alt="">
+                        <p>8 dias</p>
+                        <a href="#" class="read-more">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info">
+                <div class="package"> 
+                        <img src="images/Rio quejar.jpeg" alt="" id="img">
+                    <div class="package-precio">
+                        <h4>PRECIO DESDE
+                            <p>$1'905.000</p>
+                        </h4>
+                    </div>
+                    <div class="package-text">
+                        <h3 id="tuorist">Rio Quejar</h3>
+                        <p id="descripcion">Rafting y Senderismo</p>
+                    </div>
+                        
+                    <div class="package-info">
+                        <img src="images/calendario (3).png" alt="">
+                        <p>5 dias
+                            4 noches</p>
+                        <a href="#" class="read-more">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info">
+                <div class="package"> 
+                        <img  src="images/londres-1200_opt (1).jpg" alt="" id="img">
+                    <div class="package-precio">
+                        <h4>PRECIO DESDE
+                            <p>$18´057.000</p>
+                        </h4>
+                    </div>
+                    <div class="package-text">
+                        <h3 id="tuorist">Londres</h3>
+                        <p id="descripcion">Intercambiar Idiomas</p>
+                    </div>
+                        
+                    <div class="package-info">
+                        <img src="images/calendario (3).png" alt="">
+                        <p>4 semanas</p>
+                        <a href="#" class="read-more">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info">
+                <div class="package"> 
+                        <img src="images/liberacion de tortuga.jpg" alt="" id="img">
+                    <div class="package-precio">
+                        <h4>PRECIO DESDE
+                            <p>$1´551.000</p>
+                        </h4>
+                    </div>
+                    <div class="package-text">
+                        <h3 id="tuorist">La Bahia Solano</h3>
+                        <p id="descripcion">Sorprendente-Liberacion de Tortugas</p>
+                    </div>
+                        
+                    <div class="package-info">
+                        <img src="images/calendario (3).png" alt="">
+                        <p>4 dias
+                            3 noches</p>
+                        <a href="#" class="read-more">Leer más</a>
+                    </div>
+                </div>     
+            </div>
+
+            <div class="info">
+                <div class="package"> 
+                        <img src="images/Turismo-Casanare (1).jpg" alt="" id="img">
+                    <div class="package-precio">
+                        <h4>PRECIO DESDE
+                            <p>$2'032.000</p>
+                        </h4>
+                    </div>
+                    <div class="package-text">
+                        <h3 id="tuorist">Casanares</h3>
+                        <p id="descripcion">LLanos Orientales</p>
+                    </div>
+                        
+                    <div class="package-info">
+                        <img src="images/calendario (3).png" alt="">
+                        <p>3 noches</p>
+                        <a href="#" class="read-more">Leer más</a>
+                    </div>
+                </div> 
+            </div>
+
+        </section>
+
+    
+        
+        <footer class="footer"> 
+            <div class="footer-content container">
+            <div class="link">
+                    <h3>Terminos y condiciones</h3>
+                        <ul>
+                            <li><a href="#">Condiciones de reservas</a></li>
+                            <li><a href="#">Politica y proteccion de datos personales</a></li>
+                            <li><a href="#">QUIPOSTER es un sitio seguro</a></li>
+                            <li><a href="#">Copyright © 2023 QUIPOSTER Todos los derechos reservados  Bogotá - Colombia</a></li>
+                        </ul>
+            </div>
+            <div class="link">
+                    <h3>Contactenos</h3>
+                        <ul>
+                            <li><a href="#">QUIPOSTER</a></li>
+                            <li><a href="#">Bogotá, Colombia</a></li>
+                            <li><a href="#">Tel +57(302) 352 0815</a></li>
+                            <li><a href="#">Email quipostervev@paquetestourist.com</a></li>
+                        </ul>
+                </div>
+                <div class="text-img">
+                    <h4>Formas de Pago</h4>
+                <div class="contenedor">
+                    <img class="images" src="images/Formade pago.png" alt="">
+
+                </div>
+                    <h4>Siguenos</h4>
+                <div class="contenedor">
+                    <br>
+                    <img class="images01" src="images/icono facebook.png" alt=""> 
+                    <img class="images02" src="images/icono instragam.png" alt="">
+                    <img class="images03" src="images/icono twiter.png" alt=""> 
+                </div>    
+            </div>
+        </footer>
+    </body>
+
+</html>

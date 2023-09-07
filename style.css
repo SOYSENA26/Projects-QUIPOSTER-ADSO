@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+
+
+body {
+
+    height: 500vh;
+    background-image:
+    url(images/encabezado.png);  
+    position: center;
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+ 
+.header {
+    display: flex;
+    height: 80px;
+    background-color: rgb(244, 244, 248);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.logo {
+    display: flex;
+    height: 85px;
+    margin-right: 0 80px;
+    align-items: center;
+}
+ 
+
+nav a {
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover {
+    color:blue;
+}
+
+.ayuda {
+    display: flex;
+    font-weight: 100;
+    padding-right: 5px;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20%;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.container {
+    min-width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-Destinos {
+    display: flex;
+    flex-direction: center;
+    border-bottom: green;
+    
+}
+
+.btn {
+    padding: 5px 150px;
+    font-size: 1.2rem;
+    position: relative;
+    margin: 10px 150px;
+}
+
+.btn-1 {
+    color: black;
+    background-color: whitesmoke;
+}
+.btn-1:hover {
+    color: green;
+}
+
+.btn-2 {
+    color: black;
+    background-color: whitesmoke;
+}
+.btn-2:hover {
+    color: green;
+}
+
+.search {
+    min-width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chooseFilter {
+    display: flex;
+    flex-direction: center;
+    padding: 5px 150px;
+    font-size: 1.2rem;
+    position: relative;
+    margin: 10px 40px;
+   
+}
+
+.chooseMe-item01 {
+    margin-right: 40%;
+}
+
+
+
+
+    
+    
+
+
+
+
+.footer {
+    padding: 50px 0;
+    background-color: #1F2229;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+ }
+ .link h3 {
+    color: #FFF9FA;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.link a {
+    color: #EEEEEE;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.link a:hover {
+    color: #FFBD4C;
+}
+
+.text-img {
+    width: 20%;
+    color: #EEEEEE; 
+    justify-content: center;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.images {
+    width: 80%;
+    margin-right: 5px;
+} 
+
+.images01 {
+    width: 22%;
+    margin-right: 5px;
+}
+
+.images02 {
+    width:22%;
+    margin-left: 5px;
+}
+
+.images03 {
+    width: 22%;
+    margin-left: 5px;
+}
+
+
+
+
+
+
+ @media (max-width:991px) {
+    .footer {
+        padding: 30px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+
+    }
+ }
+
